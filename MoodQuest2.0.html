@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MoodQuest2.0</title>
+        <link rel ="icon" type ="image/png" href="Images&icons/favicon.png">
+        <link rel="stylesheet" href="Styles/page.css">
+        <link rel="stylesheet" href="Styles/headerbar.css">
+        <link rel="stylesheet" href="Styles/section-1(hero).css">
+        <link rel="stylesheet" href="Styles/section-2(about).css">
+        <link rel="stylesheet" href="Styles/section-3(products).css">
+        <link rel="stylesheet" href="Styles/section-4(testimonies).css">
+        <link rel="stylesheet" href="Styles/section-5(mantle).css">
+        <link rel="stylesheet" href="Styles/section-6(faqs).css">
+        <link rel="stylesheet" href="Styles/section-7(team).css">
+        <link rel="stylesheet" href="Styles/section-8(form).css">
+        <link rel="stylesheet" href="Styles/footer.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class ="logo"><img src ="Images&icons/Moodquestpixellogo.png" ><a>MoodQuest2.0</a></div>
+                <div class="section-links" >
+                    <ul>
+                        <li>
+                            <a href="#section-1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#section-2">Product</a>
+                        </li>
+                        <li>
+                            <a href="#section-3">About</a>
+                        </li>
+                        <li>
+                            <a href="#section-4">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#section-5">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button-set1">
+                    <button>Join the Quest</button>
+                    <button>Continue the Quest</button>
+                </div>  
+            </nav>
+        </header>
+        <section id="section-1">
+            <div class="prgf-1">
+                <div class="bold-text"><strong>Level Up Your Mental Health — One Quest At A Time</strong> </div>
+                <div class="body-text" >“Build emotional strength through stories, self-care, and quests — because growing up shouldn't feel like a battle you face alone.”</div>
+                <div class="button-set2">
+                    <button class="try">Try Now</button>
+                    <button class="demo">See Demo</button>
+                </div>
+            </div>
+        </section>
+        <section id ="section-2">
+            <h2>Our Story</h2>
+            <div class="bracket1">
+                <img src="Images&icons/two young adventurers.jpg" alt="two young adventurers" />
+                <p>
+                    MoodQuest is a gamified mental health app where teens embark on quests that build emotional strength. Using CBT-based tools, mood tracking, and interactive stories, we help young people navigate tough emotions — all in a space that feels more like an adventure and less like a lecture. Our platform empowers users to grow at their own pace, in their own way.
+                </p>
+            </div>
+            <div class="bracket2">
+                <p>
+                    MoodQuest was born from a simple but urgent truth: today's teens are struggling, and traditional mental health support isn't reaching them. Our founder, a school psychologist with over a decade of experience, saw brilliant, creative, and sensitive kids quietly battling anxiety, stress, and self-doubt — often without the tools or language to ask for help. One afternoon, after a student said, “I wish therapy was more like a game,” the spark was lit. MoodQuest began as a passion project: a way to blend the emotional depth of therapy with the magic of storytelling and the motivation of gameplay.
+                </p>
+                <img src="Images&icons/Moodquestpixellogo.png" alt="MoodQuest Logo">
+            </div>
+        </section>
+        <section id ="section-3">
+            <h2>Our Products</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                <div class="carousel-card card-1" id="card-1">
+                    <h3>Story Quests</h3>
+                    <p>"Turn emotions into adventures"</p>
+                    <img src="Images&icons/quest scroll with stars and a glowing heart.jpg" alt="quest scroll with stars and a glowing heart">
+                    <br>
+                    <p>Teens complete short, interactive quests like “Face the Dragon of Doubt,” building emotional awareness and confidence in a playful, non-threatening way</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Cognitive Behavioral Therapy (CBT) + Narrative Design.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>CBT-powered decision-making quests.</p>
+                </div>
+
+                <div class="carousel-card card-2" id="card-2">
+                    <h3>Mood Mapping</h3>
+                    <p>“Track How You Feel - Visually”</p>
+                    <img src="Images&icons/Emoji face selector on a mood spectrum or color palette.jpg" alt="Emoji face selector on a mood spectrum or color palette">
+                    <br>
+                    <p>Helps users identify emotional patterns over time using color, visuals, and journaling — no walls of text, just honest self-reflection.</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Emoji sliders, color-coded mood entries, and avatar expressions.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>Visual mood journaling.</p>
+                </div>
+
+                <div class="carousel-card card-3" id="card-3">
+                    <h3>Mini Games</h3>
+                    <p>“Build Habits Through Play”</p>
+                    <img src="Images&icons/Calendar streak badge + mini-game popups.jpg" alt="Calendar streak badge + mini-game popups">
+                    <br>
+                    <p>Teens stay engaged through daily mood check-ins and playful skill challenges that encourage consistency without pressure.</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Habit-forming design + positive reinforcement psychology.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>Gamified progress system.</p>
+                </div>
+            </div>
+        </div>
+            </div>
+            <div class="corousel-nav">
+                <input type="radio" name="carousel" id="nav-1" onclick="document.getElementById('card-1').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
+                <input type="radio" name="carousel" id="nav-2" onclick="document.getElementById('card-2').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
+                <input type="radio" name="carousel" id="nav-3" onclick="document.getElementById('card-3').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
+            </div>
+        </section>
+        
+        <section id ="section-4">
+            <h2>What People Are Saying</h2>
+            <div class="testimonydiv">
+                <div class="testimony1">
+                    <p>“MoodQuest actually makes me want to check in with how I'm feeling. It's like my own little world where I can understand myself without feeling weird or judged."</p>
+
+                    <br> <!--Line break for spacing-->
+
+                    <p style="font-weight: 600;">MoodQuest Beta Tester (Teen User)</p>
+                    <p style="font-weight: 600;">👩Jasmine R., 15</p>
+                </div>
+                <div class="testimony2">
+                    <p>“This is the first app my daughter hasn't deleted after a week. I've seen her become more open and aware of her emotions — and she actually enjoys using it.”</p>
+
+                    <br> <!--Line break for spacing-->
+
+                    <p style="font-weight: 600;">Parent of a MoodQuest User</p>
+                    <p style="font-weight: 600;">👨‍👧Aaron L.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id ="section-5">
+            <h2>What MoodQuest Believes In</h2>
+            <div class="beliefdiv">
+                <div class="belief">
+                    <P>🌟 Empowering</P>
+                    <P>We help teens build emotional strength on their own terms.</P>
+                </div>
+                <div class="belief">
+                    <p>🎮 Playful</p>
+                    <P>Because mental health can feel magical — not clinical.</P>
+                </div>
+                <div class="belief">
+                    <p>🛡️ Safe</p>
+                    <p>Every quest is a judgment-free zone, built with privacy and care.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id ="section-6">
+            <h2>Frequently Asked Question</h2>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="faq-question">What is MoodQuest?</button>
+                    <div class="faq-answer">
+                    <p>MoodQuest is an interactive mental wellness platform that turns therapy-inspired exercises into quests for teens and tweens. 🧠🎮</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <button class="faq-question">Who founded MoodQuest?</button>
+                    <div class="faq-answer">
+                    <p>MoodQuest was founded by Raymond Odhiambo and Edmond Oketch, with support from a passionate team including Boaz Marube and John Kiumu. 🚀</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <button class="faq-question">How do Story Quests work?</button>
+                    <div class="faq-answer">
+                    <p>Users go on short, narrative-driven adventures like "Face the Dragon of Doubt", designed using CBT principles to build confidence and emotional resilience. 🐉💬</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id ="section-7">
+            <h2>Meet The Team</h2>
+            <div class="team-members">
+                <div class="ray-edm">
+                    <div class="ray">
+                        <div class="ray-pic"></div>
+                        <p><strong>Raymond Odhiambo</strong><br>Generative AI Developer<br>In-charge of Generative AI development</p>
+                    </div>
+                    <div class="edm">
+                        <div class="edmond-pic"></div>
+                        <p><strong>Edmond Oketch</strong> <br> School Psychologist <br> In-charge of content creation</p>
+                    </div>
+                </div>
+                <div class="boaz-john">
+                    <div class="boaz">
+                        <div class="boaz-pic"></div>
+                        <p><strong>Boaz Marube</strong><br>Full-stack web developer<br>In-charge of front and backend of the web app.</p>
+                    </div>
+                    <div class="john">
+                        <div class="john-pic"></div>
+                        <p><strong>John Muroki</strong><br>UX/UI Designer<br>In-charge of Web design</p>
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+        <section id ="section-8">
+            <h2>Do You Want To Start Your Quest Today</h2>
+             <div class="formdiv">
+               <form action="#">
+                 <div class="name-input">
+                    <label for="name">Your Name ...</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name ..." required>
+                 </div>
+
+                <div class="email-input">
+                    <label for="email">Your Email ...</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email ..." required>
+                </div>
+
+                <div class="message-input">
+                    <textarea id="message" name="message" placeholder="Your Message ..." required></textarea>
+                </div>
+
+                <div class="submit-button">
+                    <button class="sb" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        </section>
+               
+        <footer class="footer">
+         <div class="footer-top">
+            <div> <!--Logo on the footer, to the left-->
+                <img src="Images&icons/Moodquestpixellogo.png" alt="MoodQuest Logo" class="footer-logo">
+            </div>
+            <div class="footer-message">
+                🧙‍♂️ MoodQuest has welcomed <strong id="visitor-count">0</strong> adventurers so far.
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="Images&icons/facebook.png" alt="facebook logo"></a>
+                <a href="mailto:rayymondodhiambo@gmail.com" target="_blank"><img src="Images&icons/email.png" alt="email logo"></a>
+                <a href="https://x.com/" target="_blank"><img src="Images&icons/twitter.png" alt="twitter logo"></a>
+                <a href="https://ke.linkedin.com/" target="_blank"><img src="Images&icons/linkedin.png" alt="linkedin logo"></a>
+                <a href="https://github.com/rayymaxx" target="_blank"><img src="Images&icons/github.png" alt="github logo"></a>
+            </div>
+         </div>
+
+        <div class="footer-links">
+            <a href="#section-2">About Us</a>
+            <a href="#section-3">Products</a>
+            <a href="#section-1">Home</a>
+            <a href="#section-8">Get Help</a>
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="footer-bottom">
+            <span>Privacy Policy</span>
+            <span>© 2025 MoodQuest2.0. All rights reserved.</span>
+            <span>Terms of service</span>
+        </div>
+    </body>
+</html>
